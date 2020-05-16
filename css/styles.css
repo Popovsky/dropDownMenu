@@ -52,3 +52,17 @@
 .nav-list-item:hover > .nav-sub-list {
     display: block;
 }
+
+.nav-list-item:hover, .nav-list:focus {
+    background: var(--secondary-color-dark);
+}
+
+.nav-sub-list--bottom {
+    top: 100%;
+    left: 0;
+}
+
+.nav-sub-list--right {
+    top: 0;
+    left: 100%;
+}
