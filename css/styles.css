@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --secondary-color-light: #41996f;
+    --secondary-color-dark: #36805d;
+    --primery-color-light: white;
+}
+
+.nav-list {
+    font-size: 0;
+    list-style: none;
+    color: var(--primery-color-light);
+}
+
+.nav-list-item {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: var(--secondary-color-light);
+}
+
+.nav-list-item:hover, .nav-link:focus{
+    background: var(--secondary-color-dark);
+}
+
+.nav-link {
+    display: block;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 200px;
+    border: 1px solid var(--secondary-color-dark);
+    text-transform: capitalize;
+    color: inherit;
+    font-size: 1.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
