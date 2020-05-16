@@ -43,3 +43,12 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+.nav-sub-list {
+    position: absolute;
+    display: none;
+}
+
+.nav-list-item:hover > .nav-sub-list {
+    display: block;
+}
